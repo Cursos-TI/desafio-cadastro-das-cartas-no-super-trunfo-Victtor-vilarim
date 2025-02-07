@@ -227,7 +227,7 @@ int main() {
     printf("Registre uma carta \n");
 
     printf("Escreva o nome do pais: ");
-    scanf("%s", &Pais);
+    scanf("%s", &Pais); //Não entendi o motivo de dar esse problema
 
         printf("Escreva o nome do Estado: ");
         scanf(" %s", &estado_A );
