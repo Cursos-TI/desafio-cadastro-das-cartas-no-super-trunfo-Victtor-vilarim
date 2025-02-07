@@ -10,7 +10,7 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
-    char Pais[10];
+    char Pais[20];
 
         char estado_A[40];
 
@@ -230,7 +230,7 @@ int main() {
     scanf("%s", &Pais);
 
         printf("Escreva o nome do Estado: ");
-        scanf("%s", &estado_A );
+        scanf(" %s", &estado_A );
 
             printf("Escreva o nome da Cidade: ");
             scanf(" %s", &A01);
@@ -809,5 +809,103 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+    printf("\nvocê acabou de adicionar novas cartas a colecao '%s'! \n", Pais);
+
+        printf("Carta '%s' codigo A01 pertence ao estado de(a) %s \n", A01, estado_A);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", A_pop_01, A_km_01, A_pib_01, A_pt_01);
+
+        printf("Carta '%s' codigo A02 pertence ao estado de(a) %s \n", A02, estado_A);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", A_pop_02, A_km_02, A_pib_02, A_pt_02);
+
+        printf("Carta '%s' codigo A03 pertence ao estado de(a) %s \n", A03, estado_A);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", A_pop_03, A_km_03, A_pib_03, A_pt_03);
+
+        printf("Carta '%s' codigo A04 pertence ao estado de(a) %s \n", A04, estado_A);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", A_pop_04, A_km_04, A_pib_04, A_pt_04);
+
+            printf("Carta '%s' codigo B01 pertence ao estado de(a) %s \n", B01, estado_B);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", B_pop_01, B_km_01, B_pib_01, B_pt_01);
+
+            printf("Carta '%s' codigo B02 pertence ao estado de(a) %s \n", B02, estado_B);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", B_pop_02, B_km_02, B_pib_02, B_pt_02);
+
+            printf("Carta '%s' codigo B03 pertence ao estado de(a) %s \n", B03, estado_B);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", B_pop_03, B_km_03, B_pib_03, B_pt_03);
+
+            printf("Carta '%s' codigo B04 pertence ao estado de(a) %s \n", B04, estado_B);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", B_pop_04, B_km_04, B_pib_04, B_pt_04);
+        
+        printf("Carta '%s' codigo C01 pertence ao estado de(a) %s \n", C01, estado_C);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", C_pop_01, C_km_01, C_pib_01, C_pt_01);
+
+        printf("Carta '%s' codigo C02 pertence ao estado de(a) %s \n", C02, estado_C);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", C_pop_02, C_km_02, C_pib_02, C_pt_02);
+
+        printf("Carta '%s' codigo C03 pertence ao estado de(a) %s \n", C03, estado_C);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", C_pop_03, C_km_03, C_pib_03, C_pt_03);
+
+        printf("Carta '%s' codigo C04 pertence ao estado de(a) %s \n", C04, estado_C);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", C_pop_04, C_km_04, C_pib_04, C_pt_04);
+    
+            printf("Carta '%s' codigo D01 pertence ao estado de(a) %s \n", D01, estado_D);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", D_pop_01, D_km_01, D_pib_01, D_pt_01);
+
+            printf("Carta '%s' codigo D02 pertence ao estado de(a) %s \n", D02, estado_D);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", D_pop_02, D_km_02, D_pib_02, D_pt_02);
+
+            printf("Carta '%s' codigo D03 pertence ao estado de(a) %s \n", D03, estado_D);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", D_pop_03, D_km_03, D_pib_03, D_pt_03);
+
+            printf("Carta '%s' codigo D04 pertence ao estado de(a) %s \n", D04, estado_D);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", D_pop_04, D_km_04, D_pib_04, D_pt_04);
+
+        printf("Carta '%s' codigo E01 pertence ao estado de(a) %s \n", E01, estado_E);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", E_pop_01, E_km_01, E_pib_01, E_pt_01);
+
+        printf("Carta '%s' codigo E02 pertence ao estado de(a) %s \n", E02, estado_E);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", E_pop_02, E_km_02, E_pib_02, E_pt_02);
+
+        printf("Carta '%s' codigo E03 pertence ao estado de(a) %s \n", E03, estado_E);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", E_pop_03, E_km_03, E_pib_03, E_pt_03);
+
+        printf("Carta '%s' codigo E04 pertence ao estado de(a) %s \n", E04, estado_E);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", E_pop_04, E_km_04, E_pib_04, E_pt_04);
+
+            printf("Carta '%s' codigo F01 pertence ao estado de(a) %s \n", F01, estado_F);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", F_pop_01, F_km_01, F_pib_01, F_pt_01);
+
+            printf("Carta '%s' codigo F02 pertence ao estado de(a) %s \n", F02, estado_F);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", F_pop_02, F_km_02, F_pib_02, F_pt_02);
+
+            printf("Carta '%s' codigo F03 pertence ao estado de(a) %s \n", F03, estado_F);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", F_pop_03, F_km_03, F_pib_03, F_pt_03);
+
+            printf("Carta '%s' codigo F04 pertence ao estado de(a) %s \n", F04, estado_F);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", F_pop_04, F_km_04, F_pib_04, F_pt_04);
+    
+        printf("Carta '%s' codigo G01 pertence ao estado de(a) %s \n", G01, estado_G);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", G_pop_01, G_km_01, G_pib_01, G_pt_01);
+
+        printf("Carta '%s' codigo G02 pertence ao estado de(a) %s \n", G02, estado_G);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", G_pop_02, G_km_02, G_pib_02, G_pt_02);
+
+        printf("Carta '%s' codigo G03 pertence ao estado de(a) %s \n", G03, estado_G);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", G_pop_03, G_km_03, G_pib_03, G_pt_03);
+
+        printf("Carta '%s' codigo G04 pertence ao estado de(a) %s \n", G04, estado_G);
+        printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", G_pop_04, G_km_04, G_pib_04, G_pt_04);
+    
+            printf("Carta '%s' codigo H01 pertence ao estado de(a) %s \n", H01, estado_H);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", H_pop_01, H_km_01, H_pib_01, H_pt_01);
+
+            printf("Carta '%s' codigo H02 pertence ao estado de(a) %s \n", H02, estado_H);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", H_pop_02, H_km_02, H_pib_02, H_pt_02);
+
+            printf("Carta '%s' codigo H03 pertence ao estado de(a) %s \n", H03, estado_H);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", H_pop_03, H_km_03, H_pib_03, H_pt_03);
+
+            printf("Carta '%s' codigo H04 pertence ao estado de(a) %s \n", H04, estado_H);
+            printf("Atributos:\nPopulacao: %.3f milhoes\nArea: %.2f km^2 \nPIB: %.2f milhoes \n%i pontos turisticos", H_pop_04, H_km_04, H_pib_04, H_pt_04);
+    
     return 0;
 }
